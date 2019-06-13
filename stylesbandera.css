@@ -1,0 +1,202 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+
+
+@media only screen and (max-width: 400px) {
+
+.image-container{
+	display: flex;
+	width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    align-self: auto;
+   
+
+}
+.image-container img {
+	  position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto auto;
+    max-height: 35%;
+    max-width: 35%;
+
+}
+
+
+
+
+.bandera {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+align-self: center;
+
+width: 450px;
+height: 250px;
+flex-wrap: wrap;
+}
+
+/*width : 425px;
+height: 225px;
+/*display: flex;
+align-items: stretch;
+justify-content: space-between;
+flex-direction: row;
+align-self: stretch;*/
+
+.color {
+width: 450px;
+height: 250px;
+flex: 1;
+}
+
+.verde {
+	color: #006400;
+background-color: #006400;
+}
+
+.blanco {
+	color: white;
+background-color: white;
+
+
+}
+
+.rojo {
+	color : red;
+background-color: red;
+}
+
+
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px){
+
+.image-container{
+	display: flex;
+	width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    align-self: auto;
+   
+
+}
+.image-container img {
+	  position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto auto;
+    max-height: 50%;
+    max-width: 50%;
+
+}
+
+
+
+
+.bandera {
+display: flex;
+align-items: stretch;
+justify-content: space-between;
+flex-direction: row;
+align-self: stretch;
+}
+
+.color {
+width: 250px;
+height: 750px;
+flex: 1;
+}
+
+.verde {
+	color: #006400;
+background-color: #006400;
+}
+
+.blanco {
+	color: white;
+background-color: white;
+
+}
+
+.rojo {
+	color: red;
+background-color: red;
+}
+
+}
+
+@media only screen and (min-width: 961px){
+
+.image-container{
+	display: flex;
+	width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    align-self: auto;
+   
+
+}
+.image-container img {
+	  position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto auto;
+    max-height: 50%;
+    max-width: 50%;
+
+}
+
+
+
+
+.bandera {
+display: flex;
+align-items: stretch;
+justify-content: space-between;
+flex-direction: row;
+align-self: stretch;
+}
+
+.color {
+width: 250px;
+height: 750px;
+flex: 1;
+}
+
+.verde {
+	color: #006400;
+background-color: #006400;
+}
+
+.blanco {
+	color : white;
+background-color: white;
+
+}
+
+.rojo {
+	color: red;
+background-color: red;
+}
+
+}
